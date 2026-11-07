@@ -100,6 +100,8 @@ git commit -m "Add PlutoHacks countdown page built with Copilot"
 git push
 ```
 
+If a GitHub sign-in window pops up on your first push, sign in with your browser. That's VS Code signing Git in for you, so no password or token is needed.
+
 Refresh your repo on GitHub to see your files.
 
 **Bonus – make it a live website:** in your repo go to **Settings → Pages**, set **Source** to **Deploy from a branch**, pick `main` and `/ (root)`, and click **Save**. After a minute it's live at `https://YOUR-USERNAME.github.io/plutohacks-countdown/`.
