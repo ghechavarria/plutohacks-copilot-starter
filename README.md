@@ -1,6 +1,6 @@
 # PlutoHacks 2026 – GitHub Copilot Workshop Starter
 
-Starter files for the PlutoHacks GitHub Copilot workshop. You'll warm up in `practice.js`, then have Copilot chat build a hackathon countdown page and push it to your own GitHub.
+Starter files for the PlutoHacks GitHub Copilot workshop. You'll warm up in `practice.js`, then use Copilot agent mode to build a hackathon countdown page and push it to your own GitHub.
 
 ## 1. Make your own copy
 
@@ -52,9 +52,9 @@ Open chat with **Ctrl + Alt + I** (Mac: **Cmd + Ctrl + I**). Select your functio
 /fix what happens if the end date is already in the past? Return all zeros instead of negative numbers.
 ```
 
-## 6. Build the countdown page with chat
+## 6. Agent mode: build the countdown page
 
-In the chat panel, leave the model on **Auto** and send. Chat works as an agent now, so it creates the files itself and asks before running any command:
+At the bottom of the chat box, check the dropdown to the left of **Auto** says **Agent** (it's the default, and some installs don't show **Ask** at all). Leave the model on **Auto** and send:
 
 ```text
 Create a single-page countdown website for the PlutoHacks hackathon in this folder. Use plain HTML, CSS and JavaScript in three files: index.html, style.css and script.js. Hacking runs from November 6, 2026 at 7:00 PM to November 7, 2026 at 6:00 PM local time. Before hacking starts, show "Hacking starts in" and count down to the start; once it starts, show "Hacking ends in" and count down to the end. Show the days, hours, minutes and seconds, updating every second. Use a dark space theme. Do not use any frameworks or build tools.
@@ -64,7 +64,7 @@ Click **Keep** on the changes, then open `index.html` in your browser (double-cl
 
 ## 7. Add features, one at a time
 
-If a feature is tricky, click the **Efficiency / Balance / Intelligence** button at the bottom of the chat box and pick **Intelligence** first (it uses more credits). Then pick one prompt. Each prompt says what to change, which file to change, and what to leave alone. Send one, click **Keep**, refresh the browser to check it works, then send the next.
+If a feature is tricky, click **Balance** next to **Auto** at the bottom of the chat box and pick **Intelligence** first. Then pick one prompt. Each prompt says what to change, which file to change, and what to leave alone. Send one, click **Keep**, refresh the browser to check it works, then send the next.
 
 **When hacking ends:**
 
@@ -113,7 +113,7 @@ Refresh your repo on GitHub to see your files.
 | Problem | Fix |
 | --- | --- |
 | No gray suggestions | Click the Copilot icon in the status bar and check you're signed in |
-| Chat answers but doesn't create or edit files | Help → Check for Updates, restart VS Code, and check the Copilot icon says you're signed in |
+| Chat answers but doesn't create or edit files | Set the dropdown to the left of **Auto** to **Agent** |
 | "Author identity unknown" on commit | Run `git config --global user.name "Your Name"` and `git config --global user.email "you@example.com"` |
 | `git push` asks for a password | Use **Sync Changes** in VS Code's Source Control panel |
 | Page is blank | Press F12, copy the red error from the Console, and paste it into chat after `/fix` |
