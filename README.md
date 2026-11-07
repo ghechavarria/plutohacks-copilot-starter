@@ -5,7 +5,7 @@ Starter files for the PlutoHacks GitHub Copilot workshop. You'll warm up in `pra
 ## 1. Make your own copy
 
 1. Click the green **Use this template** button at the top of this page, then **Create a new repository**.
-2. Name it `plutohacks-countdown`, set it to **Public**, and click **Create repository**.
+2. Name it `plutohacks-countdown-test`, set it to **Public**, and click **Create repository**.
 3. On your new repo, click the green **Code** button and copy the HTTPS link.
 
 ## 2. Clone it and open it in VS Code
@@ -15,12 +15,12 @@ In VS Code, open the terminal with **Ctrl + `** (the key under Esc). It opens in
 ```bash
 mkdir ~/Documents/GitHub
 cd ~/Documents/GitHub
-git clone https://github.com/YOUR-USERNAME/plutohacks-countdown.git
-cd plutohacks-countdown
+git clone https://github.com/YOUR-USERNAME/plutohacks-countdown-test.git
+cd plutohacks-countdown-test
 code .
 ```
 
-If `code .` doesn't work, use **File → Open Folder** in VS Code and pick `plutohacks-countdown` in Documents → GitHub.
+If `code .` doesn't work, use **File → Open Folder** in VS Code and pick `plutohacks-countdown-test` in Documents → GitHub.
 
 ## 3. Turn on Copilot
 
@@ -104,7 +104,7 @@ If a GitHub sign-in window pops up on your first push, sign in with your browser
 
 Refresh your repo on GitHub to see your files.
 
-**Bonus – make it a live website:** in your repo go to **Settings → Pages**, set **Source** to **Deploy from a branch**, pick `main` and `/ (root)`, and click **Save**. After a minute it's live at `https://YOUR-USERNAME.github.io/plutohacks-countdown/`.
+**Bonus – make it a live website:** in your repo go to **Settings → Pages**, set **Source** to **Deploy from a branch**, pick `main` and `/ (root)`, and click **Save**. After a minute it's live at `https://YOUR-USERNAME.github.io/plutohacks-countdown-test/`.
 
 ## Git cheat sheet
 
