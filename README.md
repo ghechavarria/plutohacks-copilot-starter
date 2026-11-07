@@ -57,7 +57,7 @@ Open chat with **Ctrl + Alt + I** (Mac: **Cmd + Ctrl + I**). Select your functio
 In the chat panel, switch the mode dropdown to **Agent** and send:
 
 ```text
-Create a single-page countdown website for the PlutoHacks hackathon in this folder. Use plain HTML, CSS and JavaScript in three files: index.html, style.css and script.js. Hacking runs from November 6, 2026 at 7:00 PM to November 7, 2026 at 6:00 PM local time. Before hacking starts, show "Hacking starts in" and count down to the start; once it starts, show "Hacking ends in" and count down to the end. Show the days, hours, minutes and seconds, updating every second. Use a dark space theme with purple and teal accents. Do not use any frameworks or build tools.
+Create a single-page countdown website for the PlutoHacks hackathon in this folder. Use plain HTML, CSS and JavaScript in three files: index.html, style.css and script.js. Hacking runs from November 6, 2026 at 7:00 PM to November 7, 2026 at 6:00 PM local time. Before hacking starts, show "Hacking starts in" and count down to the start; once it starts, show "Hacking ends in" and count down to the end. Show the days, hours, minutes and seconds, updating every second. Use a dark space theme. Do not use any frameworks or build tools.
 ```
 
 Click **Keep** on the changes, then open `index.html` in your browser (double-click it, or run `start index.html` on Windows / `open index.html` on Mac).
@@ -87,7 +87,7 @@ Add a button in the top-right corner that switches between the dark space theme 
 **Confetti, with a test button:**
 
 ```text
-Add a confetti animation that plays when hacking ends: a 5-second burst of purple and teal confetti drawn on a full-screen canvas with plain JavaScript in script.js, no libraries. Put the canvas on top of the page but let clicks pass through it (pointer-events: none), and resize it when the window size changes. Also add a small "Test confetti" button in the bottom-right corner that plays the animation right away, so I can try it without waiting for the countdown. If the user has reduced motion turned on, skip the animation.
+Add a confetti animation that plays when hacking ends: a 5-second burst of confetti in colors that match the page, drawn on a full-screen canvas with plain JavaScript in script.js, no libraries. Put the canvas on top of the page but let clicks pass through it (pointer-events: none), and resize it when the window size changes. Also add a small "Test confetti" button in the bottom-right corner that plays the animation right away, so I can try it without waiting for the countdown. If the user has reduced motion turned on, skip the animation.
 ```
 
 Refresh the page and click **Test confetti** to try it.
