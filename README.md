@@ -10,15 +10,17 @@ Starter files for the PlutoHacks GitHub Copilot workshop. You'll warm up in `pra
 
 ## 2. Clone it and open it in VS Code
 
-In VS Code, open the terminal with **Ctrl + `** (the key under Esc). It opens in your user folder (`C:\Users\yourname` on Windows, `/Users/yourname` on Mac), which is where the repo goes. Paste your own link into the first line:
+In VS Code, open the terminal with **Ctrl + `** (the key under Esc). It opens in your user folder. Make a `GitHub` folder inside Documents, then clone into it, pasting your own link into the third line (if `mkdir` says the folder already exists, that's fine):
 
 ```bash
+mkdir ~/Documents/GitHub
+cd ~/Documents/GitHub
 git clone https://github.com/YOUR-USERNAME/plutohacks-countdown.git
 cd plutohacks-countdown
 code .
 ```
 
-If `code .` doesn't work, use **File → Open Folder** in VS Code and pick `plutohacks-countdown` inside your user folder.
+If `code .` doesn't work, use **File → Open Folder** in VS Code and pick `plutohacks-countdown` in Documents → GitHub.
 
 ## 3. Turn on Copilot
 
