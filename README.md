@@ -72,10 +72,10 @@ Switch models with the picker at the bottom of the chat box if you like, then pi
 When the countdown to the end of hacking (November 7, 2026 at 6:00 PM) reaches zero, stop the timer, hide the numbers, and show "Hacking is over! Submit your project" in large text in the same space theme. Only change script.js and style.css, and keep the "Hacking starts in" countdown working.
 ```
 
-**Phone layout:**
+**Phone and resizing:**
 
 ```text
-Make the page work on a phone screen 375px wide: show the days, hours, minutes and seconds in a 2 by 2 grid, scale the numbers down so nothing overflows or scrolls sideways, and keep the desktop layout the same. Only change style.css, using a media query.
+Make the page responsive so it adapts smoothly while the browser window is resized or a phone is rotated, from 320px wide up to a full desktop screen. Use a flexible CSS grid that shows the days, hours, minutes and seconds in one row on wide screens and wraps to a 2 by 2 grid on narrow ones, size the numbers and labels with clamp() so they scale with the viewport, use 100dvh instead of 100vh for full-height sections, and make sure nothing overflows or scrolls sideways. Only change style.css, and keep the current desktop look.
 ```
 
 **Light and dark theme:**
@@ -84,11 +84,13 @@ Make the page work on a phone screen 375px wide: show the days, hours, minutes a
 Add a button in the top-right corner that switches between the dark space theme and a light theme. Put the colors in CSS variables in style.css, save the choice in localStorage so it stays after a reload, and give the button an aria-label that says which theme it switches to.
 ```
 
-Finished early?
+**Confetti, with a test button:**
 
 ```text
-When hacking ends, play a 5-second confetti animation on a canvas element using plain JavaScript in script.js, with no libraries. Use purple and teal confetti to match the theme, and skip the animation if the user has reduced motion turned on.
+Add a confetti animation that plays when hacking ends: a 5-second burst of purple and teal confetti drawn on a full-screen canvas with plain JavaScript in script.js, no libraries. Put the canvas on top of the page but let clicks pass through it (pointer-events: none), and resize it when the window size changes. Also add a small "Test confetti" button in the bottom-right corner that plays the animation right away, so I can try it without waiting for the countdown. If the user has reduced motion turned on, skip the animation.
 ```
+
+Refresh the page and click **Test confetti** to try it.
 
 ## 8. Commit and push
 
