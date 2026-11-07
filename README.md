@@ -64,24 +64,30 @@ Click **Keep** on the changes, then open `index.html` in your browser (double-cl
 
 ## 7. Add features, one at a time
 
-Switch models with the picker at the bottom of the chat box if you like, then pick one:
+Switch models with the picker at the bottom of the chat box if you like, then pick one. Each prompt says what to change, which file to change, and what to leave alone. Send one, click **Keep**, refresh the browser to check it works, then send the next.
+
+**When hacking ends:**
 
 ```text
-When the countdown reaches zero, hide the timer and show "Hacking is over! Submit your project" in big text.
+When the countdown to the end of hacking (November 7, 2026 at 6:00 PM) reaches zero, stop the timer, hide the numbers, and show "Hacking is over! Submit your project" in large text in the same space theme. Only change script.js and style.css, and keep the "Hacking starts in" countdown working.
 ```
 
-```text
-Make the page look good on a phone screen.
-```
+**Phone layout:**
 
 ```text
-Add a button that switches between light and dark themes and remembers the choice after a reload.
+Make the page work on a phone screen 375px wide: show the days, hours, minutes and seconds in a 2 by 2 grid, scale the numbers down so nothing overflows or scrolls sideways, and keep the desktop layout the same. Only change style.css, using a media query.
+```
+
+**Light and dark theme:**
+
+```text
+Add a button in the top-right corner that switches between the dark space theme and a light theme. Put the colors in CSS variables in style.css, save the choice in localStorage so it stays after a reload, and give the button an aria-label that says which theme it switches to.
 ```
 
 Finished early?
 
 ```text
-Add a confetti animation when the countdown reaches zero, without using any libraries.
+When hacking ends, play a 5-second confetti animation on a canvas element using plain JavaScript in script.js, with no libraries. Use purple and teal confetti to match the theme, and skip the animation if the user has reduced motion turned on.
 ```
 
 ## 8. Commit and push
