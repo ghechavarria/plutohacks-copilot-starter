@@ -104,6 +104,14 @@ Refresh your repo on GitHub to see your files.
 
 **Bonus – make it a live website:** in your repo go to **Settings → Pages**, set **Source** to **Deploy from a branch**, pick `main` and `/ (root)`, and click **Save**. After a minute it's live at `https://YOUR-USERNAME.github.io/plutohacks-countdown/`.
 
+## Git cheat sheet
+
+The cheat sheet from the slides, so you don't have to screenshot it. Click it to open it full size.
+
+[![Git cheat sheet](git-cheat-sheet.png)](git-cheat-sheet.png)
+
+*Git Cheat Sheet by RebelLabs (ZeroTurnaround).*
+
 ## Want to get more into Git?
 
 [Essential Git](https://github.com/boxwrx/essential-git) goes further into Git than today's workshop.
