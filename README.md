@@ -54,7 +54,7 @@ Open chat with **Ctrl + Alt + I** (Mac: **Cmd + Ctrl + I**). Select your functio
 In the chat panel, switch the mode dropdown to **Agent** and send:
 
 ```text
-Create a single-page countdown website for the PlutoHacks hackathon in this folder. Use plain HTML, CSS and JavaScript in three files: index.html, style.css and script.js. Show the days, hours, minutes and seconds left until November 7, 2026 at 11:59 PM local time (PlutoHacks runs November 6–7, 2026), updating every second. Use a dark space theme with purple and teal accents. Do not use any frameworks or build tools.
+Create a single-page countdown website for the PlutoHacks hackathon in this folder. Use plain HTML, CSS and JavaScript in three files: index.html, style.css and script.js. Show the days, hours, minutes and seconds left until November 7, 2026 at 9:30 PM local time (PlutoHacks runs from November 6, 2026 at 5:00 PM to November 7, 2026 at 9:30 PM), updating every second. Use a dark space theme with purple and teal accents. Do not use any frameworks or build tools.
 ```
 
 Click **Keep** on the changes, then open `index.html` in your browser (double-click it, or run `start index.html` on Windows / `open index.html` on Mac).
