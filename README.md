@@ -1,6 +1,6 @@
 # PlutoHacks 2026 – GitHub Copilot Workshop Starter
 
-Starter files for the PlutoHacks GitHub Copilot workshop. You'll warm up in `practice.js`, then use Copilot agent mode to build a hackathon countdown page and push it to your own GitHub.
+Starter files for the PlutoHacks GitHub Copilot workshop. You'll warm up in `practice.js`, then have Copilot chat build a hackathon countdown page and push it to your own GitHub.
 
 ## 1. Make your own copy
 
@@ -52,7 +52,7 @@ Open chat with **Ctrl + Alt + I** (Mac: **Cmd + Ctrl + I**). Select your functio
 /fix what happens if the end date is already in the past? Return all zeros instead of negative numbers.
 ```
 
-## 6. Agent mode: build the countdown page
+## 6. Build the countdown page with chat
 
 In the chat panel, leave the model on **Auto** and send. Chat works as an agent now, so it creates the files itself and asks before running any command:
 
